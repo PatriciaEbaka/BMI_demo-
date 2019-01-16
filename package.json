@@ -9,7 +9,7 @@
     "specs": "mocha --recursive  --reporter=spec spec",
     "server": "superstatic src -p 3000",
     "stop-test-server": "lsof -ti tcp:$PORT | xargs kill"
-  }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
